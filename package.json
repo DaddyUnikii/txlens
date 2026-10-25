@@ -1,0 +1,13 @@
+{
+  "name": "txlens",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI that turns any EVM transaction hash into a human-readable summary: function, args, token/NFT moves, approvals, and fee in USD.",
+  "type": "module",
+  "bin": { "txlens": "bin/txlens.js" },
+  "main": "src/lens.js",
+  "scripts": { "test": "node --test test/txlens.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["evm", "transaction", "decoder", "ethereum", "bsc", "base", "cli", "web3"],
+  "author": "Unikii (https://github.com/DaddyUnikii)",
+  "license": "MIT"
+}
