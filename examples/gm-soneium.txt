@@ -1,0 +1,13 @@
+
+  ✔ gm()  [SUCCESS]  ·  Soneium
+  0xea85e4d40e234b414d0783a4f1e0063243c93cf5c143a3dc1dd02dd0e1648f43
+
+  When          2026-10-24 16:53:29 UTC  (block 29863029)
+  From          0xf36ac4fad24f6e89a81d5c400e609e7acd7e7633
+  To            0x859a614683946d252a83ba947e88a2d2fea39e95
+  Function      gm(string)
+  Args          string hello world
+  Fee           0.00000011 ETH
+  Gas           34,804 / 35,164 @ 0.0032 gwei + L1 0.00000000390
+
+  https://soneium.blockscout.com/tx/0xea85e4d40e234b414d0783a4f1e0063243c93cf5c143a3dc1dd02dd0e1648f43

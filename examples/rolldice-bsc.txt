@@ -1,0 +1,12 @@
+
+  ✔ rollDice()  [SUCCESS]  ·  BNB Smart Chain
+  0x6efa18283ed2764d4ef635c3b3b88cafad656a792bae6d66cd9446f233e77e55
+
+  When          2026-10-24 16:47:09 UTC  (block 129548356)
+  From          0xf36ac4fad24f6e89a81d5c400e609e7acd7e7633
+  To            0x496af3023abc17315defeb3497fde8c8d614f869
+  Function      rollDice()
+  Fee           0.00000167 BNB
+  Gas           33,419 / 33,776 @ 0.05 gwei
+
+  https://bscscan.com/tx/0x6efa18283ed2764d4ef635c3b3b88cafad656a792bae6d66cd9446f233e77e55

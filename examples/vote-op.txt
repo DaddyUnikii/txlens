@@ -1,0 +1,13 @@
+
+  ✔ vote()  [SUCCESS]  ·  OP Mainnet
+  0x8e2522b1c0ff0f6782f71b3abad95952620b2bc7e2e1543fc47e58511c7bff38
+
+  When          2026-10-24 16:45:05 UTC  (block 158630764)
+  From          0xf36ac4fad24f6e89a81d5c400e609e7acd7e7633
+  To            0xf3d9d4c41b21b7adbd85a2f2bb13f29964a7bc59
+  Function      vote(uint8)
+  Args          uint8 0
+  Fee           0.00000005 ETH
+  Gas           55,426 / 56,229 @ 0.001 gwei + L1 0.00000000152
+
+  https://optimistic.etherscan.io/tx/0x8e2522b1c0ff0f6782f71b3abad95952620b2bc7e2e1543fc47e58511c7bff38
