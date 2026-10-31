@@ -72,6 +72,7 @@ txlens --selector 0xa9059cbb         # what is this 4-byte selector?
 | `--rpc <url>` | use your own RPC endpoint; the chain is identified by `eth_chainId` |
 | `--json` | print the full result as JSON (BigInts as strings) |
 | `--no-price` | skip the USD lookup |
+| `-v`, `--version` | print the version |
 | `--offline` | built-in signatures only, no network calls besides the RPC |
 
 Exit codes: `0` success · `1` error / not found · `2` the transaction reverted.
