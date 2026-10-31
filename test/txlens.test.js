@@ -87,3 +87,11 @@ test('render + json', () => {
   assert.match(out, /≈ \$0\.0062/);
   assert.equal(JSON.parse(toJSON(r)).fee.total, '10000000000000');
 });
+
+test('--version prints the package version', async () => {
+  const { execFileSync } = await import('node:child_process');
+  const { readFileSync } = await import('node:fs');
+  const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
+  const out = execFileSync(process.execPath, [new URL('../bin/txlens.js', import.meta.url).pathname, '--version'], { encoding: 'utf8' });
+  assert.equal(out.trim(), `txlens ${pkg.version}`);
+});

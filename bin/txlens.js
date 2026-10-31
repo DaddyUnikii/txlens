@@ -2,6 +2,9 @@
 import { lens, render, toJSON } from '../src/lens.js';
 import { CHAINS } from '../src/chains.js';
 import { lookupSelector } from '../src/signatures.js';
+import { readFileSync } from 'node:fs';
+
+const VERSION = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8')).version;
 
 const HELP = `txlens: read any EVM transaction like a human.
 
@@ -15,6 +18,7 @@ Options
   --json           machine-readable output
   --offline        no signature-database or price lookups
   --no-price       skip the USD fee lookup
+  -v, --version    print the version
   -h, --help       show this help
 
 Examples
@@ -30,6 +34,10 @@ const opt = (n) => {
 };
 
 async function main() {
+  if (flag('-v') || flag('--version')) {
+    console.log(`txlens ${VERSION}`);
+    return;
+  }
   if (!argv.length || flag('-h') || flag('--help')) {
     process.stdout.write(HELP);
     return;
